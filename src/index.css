@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar (opsional untuk sentuhan futuristik) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #0ff, #80f);
+  border-radius: 10px;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  background-color: #000; /* fallback hitam */
+}
